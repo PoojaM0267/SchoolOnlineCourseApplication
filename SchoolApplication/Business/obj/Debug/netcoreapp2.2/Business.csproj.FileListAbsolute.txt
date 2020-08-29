@@ -1,0 +1,12 @@
+C:\Users\kpolanki\Source\Repos\SchoolOnlineCourseApplication\SchoolApplication\Business\bin\Debug\netcoreapp2.2\Business.deps.json
+C:\Users\kpolanki\Source\Repos\SchoolOnlineCourseApplication\SchoolApplication\Business\bin\Debug\netcoreapp2.2\Business.dll
+C:\Users\kpolanki\Source\Repos\SchoolOnlineCourseApplication\SchoolApplication\Business\bin\Debug\netcoreapp2.2\Business.pdb
+C:\Users\kpolanki\Source\Repos\SchoolOnlineCourseApplication\SchoolApplication\Business\bin\Debug\netcoreapp2.2\Core.dll
+C:\Users\kpolanki\Source\Repos\SchoolOnlineCourseApplication\SchoolApplication\Business\bin\Debug\netcoreapp2.2\Core.pdb
+C:\Users\kpolanki\Source\Repos\SchoolOnlineCourseApplication\SchoolApplication\Business\obj\Debug\netcoreapp2.2\Business.csprojAssemblyReference.cache
+C:\Users\kpolanki\Source\Repos\SchoolOnlineCourseApplication\SchoolApplication\Business\obj\Debug\netcoreapp2.2\Business.AssemblyInfoInputs.cache
+C:\Users\kpolanki\Source\Repos\SchoolOnlineCourseApplication\SchoolApplication\Business\obj\Debug\netcoreapp2.2\Business.AssemblyInfo.cs
+C:\Users\kpolanki\Source\Repos\SchoolOnlineCourseApplication\SchoolApplication\Business\obj\Debug\netcoreapp2.2\Business.csproj.CoreCompileInputs.cache
+C:\Users\kpolanki\Source\Repos\SchoolOnlineCourseApplication\SchoolApplication\Business\obj\Debug\netcoreapp2.2\Business.csproj.CopyComplete
+C:\Users\kpolanki\Source\Repos\SchoolOnlineCourseApplication\SchoolApplication\Business\obj\Debug\netcoreapp2.2\Business.dll
+C:\Users\kpolanki\Source\Repos\SchoolOnlineCourseApplication\SchoolApplication\Business\obj\Debug\netcoreapp2.2\Business.pdb

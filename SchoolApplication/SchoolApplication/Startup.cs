@@ -1,3 +1,5 @@
+using Business.Facades.Course;
+using Business.Repositories;
 using Core.Entities;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
@@ -26,6 +28,9 @@ namespace SchoolApplication
 
             services.AddDbContext<SchoolContext>(opt =>
                 opt.UseInMemoryDatabase("SchoolList"));
+
+            services.AddScoped<ICourseRepository, CourseRepository>();
+            services.AddScoped<ICourseFacade, CourseFacade>();
 
             // In production, the Angular files will be served from this directory
             services.AddSpaStaticFiles(configuration =>
