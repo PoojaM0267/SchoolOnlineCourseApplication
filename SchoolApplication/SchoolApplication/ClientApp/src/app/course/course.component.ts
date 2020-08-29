@@ -22,19 +22,17 @@ export class CourseComponent implements OnInit {
   ngOnInit() {
         const url = `${this.baseUrl}api/Course`;
 
-        //this.httpClient.get<CourseModel[]>(url).subscribe((result: CourseModel[]) => {
-        //  this.courses = result;
-        //}, error => console.error(error));
+        this.httpClient.get<CourseModel[]>(url).subscribe((result: CourseModel[]) => {
+            this.courses = result;
+          }, error => console.error(error));
+  }
 
-    this.httpClient.get<CourseModel[]>(url).subscribe((result: CourseModel[]) => {
-        this.courses = result;
+    getCourseDetails(courseId) {
+      const url = `${this.baseUrl}api/Course/`+ { courseId };
+      this.httpClient.get<CourseModel>(url).subscribe((result: CourseModel) => {
+        console.log(result);
+        this.selectedCourse = result;
+        console.log(this.selectedCourse);
       }, error => console.error(error));
-  }
-
-  getCourseDetails(courseId) {
-    const url = `${this.baseUrl}api/Course/`+ { courseId };
-    this.httpClient.get<CourseModel>(url).subscribe((result: CourseModel) => {
-      this.selectedCourse = result;
-    }, error => console.error(error));
-  }
+    }
 }
