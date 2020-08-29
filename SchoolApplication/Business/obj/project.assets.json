@@ -8,36 +8,32 @@
     ".NETCoreApp,Version=v3.1": []
   },
   "packageFolders": {
-    "C:\\Users\\kpolanki\\.nuget\\packages\\": {},
+    "C:\\Users\\lenovo\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\kpolanki\\Source\\Repos\\SchoolOnlineCourseApplication\\SchoolApplication\\Business\\Business.csproj",
+      "projectUniqueName": "E:\\Demo Projects\\JobRelated\\SchoolApplication\\SchoolOnlineCourseApplication\\SchoolApplication\\Business\\Business.csproj",
       "projectName": "Business",
-      "projectPath": "C:\\Users\\kpolanki\\Source\\Repos\\SchoolOnlineCourseApplication\\SchoolApplication\\Business\\Business.csproj",
-      "packagesPath": "C:\\Users\\kpolanki\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\kpolanki\\Source\\Repos\\SchoolOnlineCourseApplication\\SchoolApplication\\Business\\obj\\",
+      "projectPath": "E:\\Demo Projects\\JobRelated\\SchoolApplication\\SchoolOnlineCourseApplication\\SchoolApplication\\Business\\Business.csproj",
+      "packagesPath": "C:\\Users\\lenovo\\.nuget\\packages\\",
+      "outputPath": "E:\\Demo Projects\\JobRelated\\SchoolApplication\\SchoolOnlineCourseApplication\\SchoolApplication\\Business\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\kpolanki\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\ServiceFabricSDK.config"
+        "C:\\Users\\lenovo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp3.1"
       ],
       "sources": {
-        "C:\\Nuget\\Beta": {},
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "C:\\Program Files\\Microsoft SDKs\\Service Fabric\\packages": {},
-        "http://components.fusion.hach.com/nuget/FF-NuGet": {},
-        "http://components.fusion.hach.com/nuget/MSM-NuGet": {},
-        "https://api.nuget.org/v3/index.json": {}
+        "https://api.nuget.org/v3/index.json": {},
+        "https://transfermate.pkgs.visualstudio.com/_packaging/TransfermateNugets/nuget/v3/index.json": {}
       },
       "frameworks": {
         "netcoreapp3.1": {
@@ -67,7 +63,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.301\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.202\\RuntimeIdentifierGraph.json"
       }
     }
   }
