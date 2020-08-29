@@ -1,10 +1,10 @@
-﻿using System;
+﻿using Core.Entities;
 using System.Collections.Generic;
-using System.Text;
 
 namespace Business.IServices
 {
     public interface ICourseService
     {
+        List<Course> GetAllCourses();
     }
 }
