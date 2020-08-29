@@ -6,3 +6,7 @@ E:\Demo Projects\JobRelated\SchoolApplication\SchoolOnlineCourseApplication\Scho
 E:\Demo Projects\JobRelated\SchoolApplication\SchoolOnlineCourseApplication\SchoolApplication\Business\obj\Debug\netcoreapp2.2\Business.AssemblyInfo.cs
 E:\Demo Projects\JobRelated\SchoolApplication\SchoolOnlineCourseApplication\SchoolApplication\Business\obj\Debug\netcoreapp2.2\Business.dll
 E:\Demo Projects\JobRelated\SchoolApplication\SchoolOnlineCourseApplication\SchoolApplication\Business\obj\Debug\netcoreapp2.2\Business.pdb
+E:\Demo Projects\JobRelated\SchoolApplication\SchoolOnlineCourseApplication\SchoolApplication\Business\obj\Debug\netcoreapp2.2\Business.csprojAssemblyReference.cache
+E:\Demo Projects\JobRelated\SchoolApplication\SchoolOnlineCourseApplication\SchoolApplication\Business\bin\Debug\netcoreapp2.2\Core.dll
+E:\Demo Projects\JobRelated\SchoolApplication\SchoolOnlineCourseApplication\SchoolApplication\Business\bin\Debug\netcoreapp2.2\Core.pdb
+E:\Demo Projects\JobRelated\SchoolApplication\SchoolOnlineCourseApplication\SchoolApplication\Business\obj\Debug\netcoreapp2.2\Business.csproj.CopyComplete

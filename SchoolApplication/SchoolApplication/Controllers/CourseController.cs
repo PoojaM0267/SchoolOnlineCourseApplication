@@ -1,4 +1,7 @@
 ﻿using System.Collections.Generic;
+using System.Threading.Tasks;
+using Business.IServices;
+using Core.Entities;
 using Microsoft.AspNetCore.Mvc;
 
 namespace SchoolApplication.Controllers
@@ -7,12 +10,21 @@ namespace SchoolApplication.Controllers
     [ApiController]
     public class CourseController : ControllerBase
     {
+
+        private readonly ICourseService _courseService;
+
+        public CourseController(ICourseService courseService)
+        {
+            _courseService = courseService;
+        }
+
         // GET: api/Course
         [HttpGet]
-        public IEnumerable<string> Get()
+        public async Task<ActionResult<IEnumerable<Course>>> Get()
         {
-            return new string[] { "value1", "value2" };
+            return _courseService.GetAllCourses();
         }
+
 
         // GET: api/Course/5
         [HttpGet("{id}", Name = "Get")]
