@@ -4,5 +4,5 @@ export interface Course {
 }
 
 export interface CourseApiResponse {
-  data: Array<Course>;
+  courses: Array<Course>;
 }

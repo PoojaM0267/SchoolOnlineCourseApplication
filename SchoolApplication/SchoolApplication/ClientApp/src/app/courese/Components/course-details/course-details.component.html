@@ -1,3 +1,4 @@
-<p>
-  course-details works!
-</p>
+<div *ngIf="courese | async as course">
+  <span>Name: </span>
+  <span>{{ course.name }}</span>
+</div>

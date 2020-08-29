@@ -10,12 +10,16 @@ import { map } from "rxjs/operators";
 export class CourseService {
   private readonly url: string;
   constructor(private httpClient: HttpClient) {
-    this.url = `url`;
+    this.url = `https://localhost:44330/api/TeacherCourse`;
   }
 
   getCourses(): Observable<Course[]> {
     return this.httpClient
       .get<Course>(this.url)
-      .pipe(map((response: CourseApiResponse) => response.data));
+      .pipe(map((response: CourseApiResponse) => response.courses));
+  }
+
+  getCourseById(id: string): Observable<Course> {
+    return this.httpClient.get<Course>(`${this.url}/${id}`);
   }
 }

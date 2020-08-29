@@ -16,6 +16,7 @@ namespace Business.Repositories
         {
             _context = context;
             _context.Courses.AddRange(SeedData());
+            _context.SaveChangesAsync();
         }
 
         public Task<List<Course>> GetCoursesManyAsync()

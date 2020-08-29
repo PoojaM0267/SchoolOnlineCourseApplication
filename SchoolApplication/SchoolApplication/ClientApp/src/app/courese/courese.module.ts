@@ -9,5 +9,6 @@ import { SharedModule } from "../shared/shared.module";
 @NgModule({
   imports: [CommonModule, CoureseRoutingModule, SharedModule],
   declarations: [CourseListComponent, CourseDetailsComponent],
+  exports: [CourseListComponent, CourseDetailsComponent],
 })
 export class CoureseModule {}
