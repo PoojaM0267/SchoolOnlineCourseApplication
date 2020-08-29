@@ -1,3 +1,5 @@
+using Business.IServices;
+using Business.Services;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
@@ -21,6 +23,9 @@ namespace SchoolApplication
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_2);
+
+            //register services here
+            services.AddScoped<ICourseService, CourseService>();
 
             //services.AddEntityFrameworkSqlServer((services) =>
             //{
