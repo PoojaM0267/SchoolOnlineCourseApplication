@@ -1,62 +1,31 @@
 ﻿using Business.IServices;
+using Business.Repositories;
 using Core.Entities;
 using System.Collections.Generic;
 using System.Linq;
+using System.Threading.Tasks;
 
 namespace Business.Services
 {
     public class CourseService: ICourseService
     {
-        private SchoolContext _schoolContext;
+        private readonly ICourseRepository _courseRepository;
 
-        public CourseService(SchoolContext schoolContext)
+        public CourseService(ICourseRepository courseRepository)
         {
-            _schoolContext = schoolContext;
+            _courseRepository = courseRepository;
         }
 
-        public List<Course> GetAllCourses()
+        public async Task<List<Course>> GetAllCourses()
         {
-            return AddCourseData();
+            return await _courseRepository.GetCoursesAsync();
         }
 
-        private List<Course> AddCourseData()
+        public async Task<Course> GetCourseById(long id)
         {
-           _schoolContext.Courses.AddRange(
-                new Course()
-                {
-                    Id = new System.Guid(),
-                    Name = "Web Technologies",
-                    Description = "All about web technologies."
-                },
-                new Course()
-                {
-                    Id = new System.Guid(),
-                    Name = "Basics of Computer",
-                    Description = "All about computer basics."
-                },
-                new Course()
-                {
-                    Id = new System.Guid(),
-                    Name = "C# Programming",
-                    Description = "All about C# Programming."
-                },
-                new Course()
-                {
-                    Id = new System.Guid(),
-                    Name = "Java Programming",
-                    Description = "All about Java Programming."
-                },
-                new Course()
-                {
-                    Id = new System.Guid(),
-                    Name = "Front end Development",
-                    Description = "All about front end (UI/UX) development."
-                }
-            );
-
-            _schoolContext.SaveChanges();
-
-            return _schoolContext.Courses.ToList();
+            return await _courseRepository.GetCourseByIdAsync(id);
         }
+
+
     }
 }

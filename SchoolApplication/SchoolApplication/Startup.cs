@@ -1,10 +1,13 @@
 using Business.IServices;
+using Business.Repositories;
 using Business.Services;
+using Core.Entities;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.SpaServices.AngularCli;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 
@@ -24,8 +27,12 @@ namespace SchoolApplication
         {
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_2);
 
+            services.AddDbContext<SchoolContext>(opt =>
+               opt.UseInMemoryDatabase("SchoolList"));
+
             //register services here
             services.AddScoped<ICourseService, CourseService>();
+            services.AddScoped<ICourseRepository, CourseRepository>();
 
             //services.AddEntityFrameworkSqlServer((services) =>
             //{
