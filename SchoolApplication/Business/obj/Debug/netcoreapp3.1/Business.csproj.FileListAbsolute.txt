@@ -1,0 +1,9 @@
+E:\Demo Projects\JobRelated\SchoolApplication\SchoolOnlineCourseApplication\SchoolApplication\Business\bin\Debug\netcoreapp3.1\Business.deps.json
+E:\Demo Projects\JobRelated\SchoolApplication\SchoolOnlineCourseApplication\SchoolApplication\Business\bin\Debug\netcoreapp3.1\Business.dll
+E:\Demo Projects\JobRelated\SchoolApplication\SchoolOnlineCourseApplication\SchoolApplication\Business\bin\Debug\netcoreapp3.1\Business.pdb
+E:\Demo Projects\JobRelated\SchoolApplication\SchoolOnlineCourseApplication\SchoolApplication\Business\obj\Debug\netcoreapp3.1\Business.csprojAssemblyReference.cache
+E:\Demo Projects\JobRelated\SchoolApplication\SchoolOnlineCourseApplication\SchoolApplication\Business\obj\Debug\netcoreapp3.1\Business.csproj.CoreCompileInputs.cache
+E:\Demo Projects\JobRelated\SchoolApplication\SchoolOnlineCourseApplication\SchoolApplication\Business\obj\Debug\netcoreapp3.1\Business.AssemblyInfoInputs.cache
+E:\Demo Projects\JobRelated\SchoolApplication\SchoolOnlineCourseApplication\SchoolApplication\Business\obj\Debug\netcoreapp3.1\Business.AssemblyInfo.cs
+E:\Demo Projects\JobRelated\SchoolApplication\SchoolOnlineCourseApplication\SchoolApplication\Business\obj\Debug\netcoreapp3.1\Business.dll
+E:\Demo Projects\JobRelated\SchoolApplication\SchoolOnlineCourseApplication\SchoolApplication\Business\obj\Debug\netcoreapp3.1\Business.pdb
