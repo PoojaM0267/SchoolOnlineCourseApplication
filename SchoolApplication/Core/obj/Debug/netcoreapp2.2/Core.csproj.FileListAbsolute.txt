@@ -6,3 +6,4 @@ C:\Users\kpolanki\Source\Repos\SchoolOnlineCourseApplication\SchoolApplication\C
 C:\Users\kpolanki\Source\Repos\SchoolOnlineCourseApplication\SchoolApplication\Core\obj\Debug\netcoreapp2.2\Core.csproj.CoreCompileInputs.cache
 C:\Users\kpolanki\Source\Repos\SchoolOnlineCourseApplication\SchoolApplication\Core\obj\Debug\netcoreapp2.2\Core.dll
 C:\Users\kpolanki\Source\Repos\SchoolOnlineCourseApplication\SchoolApplication\Core\obj\Debug\netcoreapp2.2\Core.pdb
+C:\Users\kpolanki\Source\Repos\SchoolOnlineCourseApplication\SchoolApplication\Core\obj\Debug\netcoreapp2.2\Core.csprojAssemblyReference.cache

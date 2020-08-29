@@ -22,7 +22,7 @@ namespace Business.Facades.Course
 
         public Task<Core.Entities.Course> GetCourseByIdAsync(Guid id)
         {
-            return _courseRepository.GetCourseByIdAsync(id);
+            return id == Guid.Empty ? null : _courseRepository.GetCourseByIdAsync(id);
         }
     }
 }
