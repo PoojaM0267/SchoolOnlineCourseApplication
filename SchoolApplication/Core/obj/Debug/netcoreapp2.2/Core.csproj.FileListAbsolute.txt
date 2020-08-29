@@ -1,7 +1,6 @@
 E:\Demo Projects\JobRelated\SchoolApplication\SchoolOnlineCourseApplication\SchoolApplication\Core\bin\Debug\netcoreapp2.2\Core.deps.json
 E:\Demo Projects\JobRelated\SchoolApplication\SchoolOnlineCourseApplication\SchoolApplication\Core\bin\Debug\netcoreapp2.2\Core.dll
 E:\Demo Projects\JobRelated\SchoolApplication\SchoolOnlineCourseApplication\SchoolApplication\Core\bin\Debug\netcoreapp2.2\Core.pdb
-E:\Demo Projects\JobRelated\SchoolApplication\SchoolOnlineCourseApplication\SchoolApplication\Core\obj\Debug\netcoreapp2.2\Core.csprojAssemblyReference.cache
 E:\Demo Projects\JobRelated\SchoolApplication\SchoolOnlineCourseApplication\SchoolApplication\Core\obj\Debug\netcoreapp2.2\Core.csproj.CoreCompileInputs.cache
 E:\Demo Projects\JobRelated\SchoolApplication\SchoolOnlineCourseApplication\SchoolApplication\Core\obj\Debug\netcoreapp2.2\Core.AssemblyInfoInputs.cache
 E:\Demo Projects\JobRelated\SchoolApplication\SchoolOnlineCourseApplication\SchoolApplication\Core\obj\Debug\netcoreapp2.2\Core.AssemblyInfo.cs
