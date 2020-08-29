@@ -27,8 +27,8 @@ export class CourseComponent implements OnInit {
           }, error => console.error(error));
   }
 
-    getCourseDetails(courseId) {
-      const url = `${this.baseUrl}api/Course/`+ { courseId };
+    getCourseDetails(courseId : number) {
+      const url = `${this.baseUrl}api/Course/${courseId}`;
       this.httpClient.get<CourseModel>(url).subscribe((result: CourseModel) => {
         console.log(result);
         this.selectedCourse = result;
